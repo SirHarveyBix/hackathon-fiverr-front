@@ -1,7 +1,3 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from './views/Home.jsx';
-import Login from './views/Login.jsx';
-import SignUp from "./views/Signup.jsx";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './views/Home';
 import Login from './views/Login';
