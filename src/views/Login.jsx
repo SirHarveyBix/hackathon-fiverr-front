@@ -1,18 +1,20 @@
 /* eslint-disable no-unused-vars */
 import axios from 'axios';
-import React, { useState } from 'react';
 import Slideshow from '../commons/Slideshow';
+import React, { useState, useContext } from 'react';
+import LoginContext from '../contexts/LoginContext';
 import './Login.css';
 
 function Login() {
-  const [email, setEmail] = useState('');
+  const [pseudo, setPseudo] = useState('');
   const [password, setPassword] = useState('');
   const [pseudo, setPseudo] = useState('');
   const [firstname, setFirstname] = useState('');
   const [lastname, setLastname] = useState('');
+  const {setIsLog } = useContext(LoginContext);
 
-  const handleEmail = (event) => {
-    setEmail(event.target.value);
+  const handlePseudo = (event) => {
+    setPseudo(event.target.value);
   };
   const handlePassword = (event) => {
     setPassword(event.target.value);
@@ -31,10 +33,15 @@ function Login() {
     event.preventDefault();
     axios
       .post(`${process.env.REACT_APP_BACKEND_URL}/login`, {
-        email,
+        pseudo,
         password,
       })
       .then((response) => {
+        if (response.data.message) {
+          setIsLog(false);
+        } else {
+          setIsLog(true);
+        }
         console.log(response.data);
       });
   };
@@ -69,16 +76,6 @@ function Login() {
             name='pseudo'
             onChange={handlePseudo}
             placeholder='Pseudo :'
-            required
-          />
-        </label>
-        <label className='field' htmlFor='email'>
-          <input
-            id='email'
-            type='email'
-            name='email'
-            onChange={handleEmail}
-            placeholder='E-mail :'
             required
           />
         </label>

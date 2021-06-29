@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
 .signUpForm {
   display: flex;
   flex-direction: column;
@@ -9,9 +11,21 @@
   padding: 5px;
   width: 80%;
   align-items: center;
+  font-family: 'Montserrat';
+  border: 2px solid #1EBE73;
 }
 
 .login-btn {
   background-color:#1EBE73;
   color: white;
+  width: 10%;
+  border-color: transparent;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.login-btn:hover {
+  background-color: white;
+  color: #1EBE73;
 }
