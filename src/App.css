@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .app {
   margin: 0;
   padding: 0;
 }
 
-.navigation-bar{
+.navigation-bar {
   height: 50px;
   width: 100%;
   border-bottom: solid 1px rgb(202, 202, 202);
@@ -22,4 +24,15 @@
   list-style-type: none;
   margin-left: 10px;
   text-decoration: none;
+}
+
+.navigation-bar a {
+  color: #1ebe73;
+  cursor: pointer;
+  font-family: 'Montserrat';
+}
+
+a:hover {
+  background-color: #1ebe73;
+  color: white;
 }
