@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mapBox {
+  height: 180px;
+}
+.leaflet-container {
+  height: 180px;
+}

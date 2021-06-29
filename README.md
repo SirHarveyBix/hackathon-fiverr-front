@@ -8,6 +8,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Then you migh need to install :
+
+### `npm i react-leaflet@3.1.0 @react-leaflet/core@1.0.2`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

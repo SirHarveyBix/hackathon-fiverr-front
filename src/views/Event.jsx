@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import FormInput from './FormInput';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 function Event() {
   const [users, setUsers] = useState([]);
@@ -53,14 +54,39 @@ function Event() {
           value={formContent}
           setValue={setFormContent}
         />
-        <FormInput
-          label='date'
-          name='date'
-          type='date'
-          value={formContent}
-          setValue={setFormContent}
-        />
+
         <input type='submit' value="Creer l'evenement" />
+        <div className='map-box'>
+          <MapContainer
+            center={[47.2074, -1.5556]}
+            zoom={13}
+            scrollWheelZoom={true}
+          >
+            <TileLayer
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+              url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+            />
+            <Marker position={[47.2074, -1.5556]}>
+              <Popup>
+                Reserve a desk :<br />{' '}
+                <FormInput
+                  label='date '
+                  name='date'
+                  type='date'
+                  value={formContent}
+                  setValue={setFormContent}
+                />
+                <FormInput
+                  label='time '
+                  name='time'
+                  type='time'
+                  value={formContent}
+                  setValue={setFormContent}
+                />
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div>
       </form>
     </div>
   );
