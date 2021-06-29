@@ -5,6 +5,7 @@ import CardDetails from './views/CardDetails';
 import CardDetailsContext from './contexts/CardDetailsContext';
 import './App.css';
 import { useState } from 'react';
+import fiverrlogo from './img/fiverrlogo2.png';
 
 function App() {
   const [cardDetails, setCardDetails] = useState({});
@@ -13,6 +14,9 @@ function App() {
       <div className='app'>
         <nav className='navigation-bar'>
           <ul>
+            <li>
+              <img className='logo-fiverr' src={fiverrlogo} alt='Fiverr Icon' />
+            </li>
             <li>
               <Link to='/'>Home</Link>
             </li>

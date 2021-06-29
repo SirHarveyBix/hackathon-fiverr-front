@@ -5,6 +5,9 @@ import './Login.css';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [pseudo, setPseudo] = useState('');
+  const [firstname, setFirstname] = useState('');
+  const [lastname, setLastname] = useState('');
 
   const handleEmail = (event) => {
     setEmail(event.target.value);
@@ -12,6 +15,15 @@ function Login() {
   const handlePassword = (event) => {
     setPassword(event.target.value);
   };
+  const handlePseudo = (event) => {
+    setPseudo(event.target.value);
+  }
+  const handleFirstname = (event) => {
+    setFirstname(event.target.value);
+  }
+  const handleLastname = (event) => {
+    setLastname(event.target.value);
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -33,7 +45,7 @@ function Login() {
             id='firstname'
             type='firstname'
             name='firstname'
-            onChange={handleEmail}
+            onChange={handleFirstname}
             placeholder='Firstname :'
             required
           />
@@ -43,7 +55,7 @@ function Login() {
             id='lastname'
             type='lastname'
             name='lastname'
-            onChange={handleEmail}
+            onChange={handleLastname}
             placeholder='Lastname :'
             required
           />
@@ -53,7 +65,7 @@ function Login() {
             id='pseudo'
             type='pseudo'
             name='pseudo'
-            onChange={handleEmail}
+            onChange={handlePseudo}
             placeholder='Pseudo :'
             required
           />
