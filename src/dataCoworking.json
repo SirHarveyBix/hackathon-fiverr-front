@@ -15,7 +15,7 @@
   },
   {
   "NOM": "ADE Coworking",
-  "ADRESSE": "9 Rue du Petit Ch�telier",
+  "ADRESSE": "9 Rue du Petit Châtelier",
   "CP": "44300",
   "VILLE": "Nantes",
   "WEB": "www.ade-coworking.net"
@@ -28,35 +28,35 @@
   "WEB": "www.amabla.org"
   },
   {
-  "NOM": "Anticaf�",
+  "NOM": "Anticafé Beaubourg",
   "ADRESSE": "79 Rue Quincampoix",
   "CP": "75003",
   "VILLE": "Paris",
   "WEB": "www.anticafe.eu"
   },
   {
-  "NOM": "Anticaf�",
+  "NOM": "Anticafé Louvre",
   "ADRESSE": "10 Rue de Richelieu",
   "CP": "75001",
   "VILLE": "Paris",
   "WEB": "www.anticafe.eu"
   },
   {
-  "NOM": "Anticaf�",
+  "NOM": "Anticafé",
   "ADRESSE": "59 Rue nationale",
   "CP": "75013",
   "VILLE": "Paris",
   "WEB": "www.anticafe.eu"
   },
   {
-  "NOM": "Anticaf�",
-  "ADRESSE": "6 Rue du Ch�teau d'Eau",
+  "NOM": "Anticafé République",
+  "ADRESSE": "6 Rue du Château d'Eau",
   "CP": "75010",
   "VILLE": "Paris",
   "WEB": "www.anticafe.eu"
   },
   {
-  "NOM": "Arr�t Minute",
+  "NOM": "Arrêt Minute",
   "ADRESSE": "96 Cours des Girondins",
   "CP": "33500",
   "VILLE": "Libourne",
@@ -64,14 +64,14 @@
   },
   {
   "NOM": "Bastia Coworking",
-  "ADRESSE": "26 Rue du G�n�ral Carbuccia",
+  "ADRESSE": "26 Rue du Général Carbuccia",
   "CP": "20200",
   "VILLE": "Bastia",
   "WEB": "www.bastiacoworking.com"
   },
   {
   "NOM": "BeCoworking",
-  "ADRESSE": "60 Rue de la Jonqui�re",
+  "ADRESSE": "60 Rue de la Jonquiére",
   "CP": "75017",
   "VILLE": "Paris",
   "WEB": "www.be-coworking.fr"
@@ -113,7 +113,7 @@
   },
   {
   "NOM": "BTCoworking",
-  "ADRESSE": "209 Rue de l'Universit�",
+  "ADRESSE": "209 Rue de l'Université",
   "CP": "75007",
   "VILLE": "Paris",
   "WEB": "www.btcoworking.com"
@@ -129,19 +129,19 @@
   "NOM": "Cocotte Minute",
   "ADRESSE": "19 Rue Jean Jacques Rousseau",
   "CP": "33340",
-  "VILLE": "Lesparre-M�doc",
+  "VILLE": "Lesparre-Médoc",
   "WEB": "www.cocotte-minute.info"
   },
   {
   "NOM": "Co-Factory",
-  "ADRESSE": "677 Avenue de la R�publique",
+  "ADRESSE": "677 Avenue de la République",
   "CP": "59800",
   "VILLE": "Lille",
   "WEB": "www.co-factory.fr"
   },
   {
   "NOM": "CoopWorking",
-  "ADRESSE": "1 Avenue de l'Angevini�re",
+  "ADRESSE": "1 Avenue de l'Angeviniére",
   "CP": "44800",
   "VILLE": "Saint-Herblain",
   "WEB": "www.coopworking-nantes.coop"
@@ -155,14 +155,14 @@
   },
   {
   "NOM": "Cowork In Grenoble",
-  "ADRESSE": "16 Boulevard Mar�chal Lyautey",
+  "ADRESSE": "16 Boulevard Maréchal Lyautey",
   "CP": "38000",
   "VILLE": "Grenoble",
   "WEB": "www.co-work.fr"
   },
   {
   "NOM": "Cowork in the City",
-  "ADRESSE": "27 Rue des Laiti�res",
+  "ADRESSE": "27 Rue des Laitiéres",
   "CP": "94300",
   "VILLE": "Vincennes",
   "WEB": "www.coworkinthecity.fr"
@@ -190,28 +190,28 @@
   },
   {
   "NOM": "Coworking 78",
-  "ADRESSE": "2 Rue Louis Bl�riot",
+  "ADRESSE": "2 Rue Louis Blériot",
   "CP": "78130",
   "VILLE": "Les Mureaux",
   "WEB": "www.coworking78.fr"
   },
   {
   "NOM": "Coworking Bordeaux",
-  "ADRESSE": "180 Rue Juda�que",
+  "ADRESSE": "180 Rue Judaïque",
   "CP": "33000",
   "VILLE": "Bordeaux",
   "WEB": "www.coworking-bordeaux.fr"
   },
   {
   "NOM": "Coworking Epinal",
-  "ADRESSE": "5 All�e six",
+  "ADRESSE": "5 Allée six",
   "CP": "88150",
   "VILLE": "Thaon-les-Vosges",
   "WEB": "www.coworking-epinal.com"
   },
   {
   "NOM": "Coworking Kaizen",
-  "ADRESSE": "9 Rue Andr� Darbon",
+  "ADRESSE": "9 Rue Andrè Darbon",
   "CP": "33300",
   "VILLE": "Bordeaux",
   "WEB": "www.location-bureau-bordeaux.fr"
@@ -267,14 +267,14 @@
   },
   {
   "NOM": "Dojo",
-  "ADRESSE": "24 Rue B�ranger",
+  "ADRESSE": "24 Rue Béranger",
   "CP": "75003",
   "VILLE": "Paris",
   "WEB": "www.dojocrea.fr"
   },
   {
   "NOM": "Dojo",
-  "ADRESSE": "77 Avenue de la R�publique",
+  "ADRESSE": "77 Avenue de la République",
   "CP": "75010",
   "VILLE": "Paris",
   "WEB": "www.dojocrea.fr"
@@ -288,7 +288,7 @@
   },
   {
   "NOM": "Eb-Lab",
-  "ADRESSE": "12 Boulevard Georges Cl�menceau",
+  "ADRESSE": "12 Boulevard Georges Clémenceau",
   "CP": "21000",
   "VILLE": "Dijon",
   "WEB": "www.eb-lab.com"
@@ -322,10 +322,10 @@
   "WEB": "www.euptouyou.com"
   },
   {
-  "NOM": "Eur�ka Coworking",
+  "NOM": "Eurêka Coworking",
   "ADRESSE": "4 Rue Croix de Malte",
   "CP": "45000",
-  "VILLE": "Orl�ans",
+  "VILLE": "Orléans",
   "WEB": "www.eurekacoworking.fr"
   },
   {
@@ -337,7 +337,7 @@
   },
   {
   "NOM": "Forum Digital",
-  "ADRESSE": "Rue L�opold S�dar-Senghor",
+  "ADRESSE": "Rue Léopold Sédar-Senghor",
   "CP": "14460",
   "VILLE": "Colombelles",
   "WEB": "www.forum-digital.fr"
@@ -364,17 +364,17 @@
   "WEB": "www.helmutetraoul.com"
   },
   {
-  "NOM": "Hubsy Caf�",
-  "ADRESSE": "41 Rue R�aumur",
+  "NOM": "Hubsy Café",
+  "ADRESSE": "41 Rue Réaumur",
   "CP": "75003",
   "VILLE": "Paris",
   "WEB": "www.hubsy.fr"
   },
   {
   "NOM": "IBB",
-  "ADRESSE": "4 Rue Eug�ne Savoye",
+  "ADRESSE": "4 Rue Eugêne Savoye",
   "CP": "25000",
-  "VILLE": "Besan�on",
+  "VILLE": "Besançon",
   "WEB": "www.ibureaubisontin.com"
   },
   {
