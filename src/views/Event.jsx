@@ -1,16 +1,19 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import FormInput from './FormInput';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-
+import FormInput from './FormInput';
+import './event.css';
 function Event() {
   const [users, setUsers] = useState([]);
+  const [time, setTime] = useState();
   const [formContent, setFormContent] = useState({
     user_id: '',
     description: '',
     title: '',
     date: '',
+    time: '',
   });
+  console.log(time);
 
   useEffect(() => {
     axios.get(`http://localhost:8000/user`).then((response) => {
@@ -29,33 +32,32 @@ function Event() {
 
   return (
     <div>
-      <div>Create event</div>
       <form onSubmit={handleSubmit}>
-        <select name='user_id' id='user_id'>
-          {users.map((user) => {
-            return (
-              <option key={user.id} name='user_id' value={user.id}>
-                {user.firstname} {user.lastname}
-              </option>
-            );
-          })}
-        </select>
-        <FormInput
-          label='Titre'
-          name='title'
-          type='text'
-          value={formContent}
-          setValue={setFormContent}
-        />
-        <FormInput
-          label='description'
-          name='description'
-          type='text'
-          value={formContent}
-          setValue={setFormContent}
-        />
-
-        <input type='submit' value="Creer l'evenement" />
+        <div className='inputContent'>
+          <select name='user_id' id='user_id'>
+            {users.map((user) => {
+              return (
+                <option key={user.id} name='user_id' value={user.id}>
+                  {user.firstname} {user.lastname}
+                </option>
+              );
+            })}
+          </select>
+          <FormInput
+            label='Titre'
+            name='title'
+            type='text'
+            value={formContent}
+            setValue={setFormContent}
+          />
+          <FormInput
+            label='description'
+            name='description'
+            type='text'
+            value={formContent}
+            setValue={setFormContent}
+          />
+        </div>
         <div className='map-box'>
           <MapContainer
             center={[47.2074, -1.5556]}
@@ -86,6 +88,7 @@ function Event() {
               </Popup>
             </Marker>
           </MapContainer>
+          <input type='submit' value="Creer l'evenement" />
         </div>
       </form>
     </div>

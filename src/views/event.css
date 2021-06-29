@@ -1,0 +1,20 @@
+.mapBox {
+  height: 180px;
+}
+.leaflet-container {
+  height: 180px;
+}
+
+.inputContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.map-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+}
