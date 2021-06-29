@@ -16,7 +16,7 @@ function Profile() {
   return (
     <div className='Container_profil'>
       <div>
-        <h1>Mon Profil</h1>
+        <h1>Mon profil</h1>
       </div>
       <div className='container_image_avatar'>
         <div className='texte'>
@@ -25,12 +25,6 @@ function Profile() {
           <div>Email : {user[0].email}</div>
           <div>Pseudo : {user[0].pseudo}</div>
         </div>
-        {/* en attente de pouvoir recuperer envoyer la photo > bdd */}
-        {/* <img
-          src={user[0].picture}
-          alt={user[0].firstname}
-          className="style_avatar"
-        /> */}
       </div>
     </div>
   );
