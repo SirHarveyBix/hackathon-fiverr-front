@@ -1,25 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .app {
   margin: 0;
   padding: 0;
 }
 
-.navigation-bar{
-  height: 50px;
+.navigation-bar {
   width: 100%;
-  border-bottom: solid 1px rgb(202, 202, 202);
+  border-bottom: solid 0.5px #1ebe73;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 13px;
 }
 
 .navigation-bar ul {
-  flex-direction: column;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
 }
 
 .navigation-bar ul li {
   list-style-type: none;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   text-decoration: none;
+}
+
+.navigation-bar a {
+  color: #1ebe73;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.428571429;
+}
+
+.navigation-bar a:hover {
+  background-color: #1ebe73;
+  color: white;
+}
+
+.logo-fiverr {
+  max-width: 120px;
 }

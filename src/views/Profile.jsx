@@ -15,15 +15,17 @@ function Profile() {
   return (
     <div className='Container_profil'>
       <div>
-        <h1>Mon Profil</h1>
+        <h1>Mon profil</h1>
       </div>
+      <div className='container_image_avatar'>
         <div className='texte'>
           <div>Firstname :{user[0].firstname}</div>
           <div>Lastname : {user[0].lastname}</div>
           <div>Email : {user[0].email}</div>
           <div>Pseudo : {user[0].pseudo}</div>
         </div>
-        </div>
+      </div>
+    </div>
   );
 }
 
