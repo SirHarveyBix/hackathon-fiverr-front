@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Profile.css';
 
 function Profile() {
   const [user, setUser] = useState({});
@@ -18,7 +17,7 @@ function Profile() {
       <div>
         <h1>Mon Profil</h1>
       </div>
-      <div className='container_image_avatar'>
+      {/* <div className='container_image_avatar'>
         <div className='texte'>
           <div>Firstname :{user[0].firstname}</div>
           <div>Lastname : {user[0].lastname}</div>
@@ -30,8 +29,8 @@ function Profile() {
           src={user[0].picture}
           alt={user[0].firstname}
           className="style_avatar"
-        /> */}
-      </div>
+        /> 
+        </div>*/} 
     </div>
   );
 }
