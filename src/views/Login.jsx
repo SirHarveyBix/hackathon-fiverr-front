@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import axios from 'axios';
 import React, { useState } from 'react';
+import Slideshow from '../commons/Slideshow';
 import './Login.css';
 
 function Login() {
@@ -17,13 +19,13 @@ function Login() {
   };
   const handlePseudo = (event) => {
     setPseudo(event.target.value);
-  }
+  };
   const handleFirstname = (event) => {
     setFirstname(event.target.value);
-  }
+  };
   const handleLastname = (event) => {
     setLastname(event.target.value);
-  }
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -90,8 +92,9 @@ function Login() {
             required
           />
         </label>
-        <button type='submit'>Login</button>
-      </form> 
+        <button className='login-btn' type='submit'>Login</button>
+      </form>
+      <Slideshow />
     </div>
   );
 }

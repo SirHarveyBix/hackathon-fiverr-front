@@ -1,9 +1,17 @@
-img{
-  width: 40%;
-  height: 40%;
-}
 .signUpForm {
   display: flex;
   flex-direction: column;
-  background-color: red;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 80%;
+  align-items: center;
+}
+
+.login-btn {
+  background-color:#1EBE73;
+  color: white;
 }
