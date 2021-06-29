@@ -5,6 +5,7 @@ import './Login.css';
 function Login() {
   const [pseudo, setPseudo] = useState('');
   const [password, setPassword] = useState('');
+  const [isLog, setIsLog] = useState({});
 
   const handlePseudo = (event) => {
     setPseudo(event.target.value);
@@ -21,9 +22,10 @@ function Login() {
         password,
       })
       .then((response) => {
-        console.log(response.data);
+        setIsLog(response);
       });
   };
+  console.log(isLog);
 
   return (
     <div className='signUpForm'>
@@ -49,6 +51,7 @@ function Login() {
           />
         </label>
         <button type='submit'>Login</button>
+        {isLog ? console.log(isLog) : console.log(isLog)}
       </form>
     </div>
   );
