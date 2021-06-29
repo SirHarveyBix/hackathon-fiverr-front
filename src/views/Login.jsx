@@ -1,11 +1,13 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import { useContext } from 'react';
+import LoginContext from '../contexts/LoginContext';
 import './Login.css';
 
 function Login() {
   const [pseudo, setPseudo] = useState('');
   const [password, setPassword] = useState('');
-  const [isLog, setIsLog] = useState({});
+  const {setIsLog } = useContext(LoginContext);
 
   const handlePseudo = (event) => {
     setPseudo(event.target.value);
@@ -22,10 +24,14 @@ function Login() {
         password,
       })
       .then((response) => {
-        setIsLog(response);
+        if (response.data.message) {
+          setIsLog(false);
+        } else {
+          setIsLog(true);
+        }
+        console.log(response.data);
       });
   };
-  console.log(isLog);
 
   return (
     <div className='signUpForm'>
@@ -51,7 +57,6 @@ function Login() {
           />
         </label>
         <button type='submit'>Login</button>
-        {isLog ? console.log(isLog) : console.log(isLog)}
       </form>
     </div>
   );
