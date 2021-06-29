@@ -8,19 +8,15 @@ import './Login.css';
 function Login() {
   const [pseudo, setPseudo] = useState('');
   const [password, setPassword] = useState('');
-  const [pseudo, setPseudo] = useState('');
   const [firstname, setFirstname] = useState('');
   const [lastname, setLastname] = useState('');
-  const {setIsLog } = useContext(LoginContext);
+  const { setIsLog } = useContext(LoginContext);
 
   const handlePseudo = (event) => {
     setPseudo(event.target.value);
   };
   const handlePassword = (event) => {
     setPassword(event.target.value);
-  };
-  const handlePseudo = (event) => {
-    setPseudo(event.target.value);
   };
   const handleFirstname = (event) => {
     setFirstname(event.target.value);
@@ -89,7 +85,9 @@ function Login() {
             required
           />
         </label>
-        <button className='login-btn' type='submit'>Login</button>
+        <button className='login-btn' type='submit'>
+          Login
+        </button>
       </form>
       <Slideshow />
     </div>
