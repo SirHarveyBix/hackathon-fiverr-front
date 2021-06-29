@@ -1,23 +1,21 @@
 import React, { useContext } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import dataImages from '../dataImages.json';
 import marker from '../img/marker.png';
 import { useHistory } from 'react-router';
 import CardDetailsContext from '../contexts/CardDetailsContext';
 
 function CardComponent(props) {
-  const { nom, web, cp, ville } = props;
+  console.log(props);
+  const { nom, web, cp, ville, img } = props;
   const { setCardDetails } = useContext(CardDetailsContext);
-
-  const aleatory = dataImages[Math.floor(Math.random() * 9)];
 
   let history = useHistory();
 
   function handleClick() {
     history.push('/carddetails');
     setCardDetails(props);
-  };
+  }
 
   return (
     <div className='Card'>
@@ -27,12 +25,11 @@ function CardComponent(props) {
             width: '14rem',
             height: '250px',
             margin: '3px',
-            cursor: 'pointer',
           }}
         >
           <Card.Img
             variant='top'
-            src={aleatory.URL}
+            src={img}
             style={{ width: 'auto', height: '7rem' }}
           />
           <Card.Body>
@@ -49,6 +46,7 @@ function CardComponent(props) {
           </Card.Body>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Button
+              variant='outline-success'
               style={{
                 width: '90px',
                 height: '20px',
