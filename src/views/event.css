@@ -1,8 +1,13 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27);
+
 .mapBox {
   height: 180px;
 }
 .leaflet-container {
   height: 180px;
+}
+form {
+  display: flex;
 }
 
 .inputContent {
@@ -17,4 +22,25 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-between;
+}
+
+.container-event {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.titre-label {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #1EBE73;
+}
+
+.container-card-event {
+  display: flex;
+}
+
+.card {
+  margin: 2%;
+  width: 400px;
+  box-shadow: 1px 1px 12px #555;
 }
