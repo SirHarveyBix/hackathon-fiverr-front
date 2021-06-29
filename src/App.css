@@ -6,7 +6,7 @@
 .navigation-bar{
   height: 50px;
   width: 100%;
-  background-color: darkgrey;
+  border-bottom: solid 1px rgb(202, 202, 202);
   display: flex;
   justify-content: center;
   align-items: center;
