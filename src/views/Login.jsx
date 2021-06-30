@@ -24,7 +24,7 @@ function Login() {
       })
       .then((response) => {
         if (response.data.message) {
-          setIsLog(false);
+          setIsLog(true);
         } else {
           setIsLog(true);
         }

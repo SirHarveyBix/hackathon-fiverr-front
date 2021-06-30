@@ -13,7 +13,7 @@ import fiverrlogo from './img/fiverrlogo2.png';
 
 function App() {
   const [cardDetails, setCardDetails] = useState({});
-  const [isLog, setIsLog] = useState(false);
+  const [isLog, setIsLog] = useState(true);
   return (
     <Router>
       <div className='app'>
