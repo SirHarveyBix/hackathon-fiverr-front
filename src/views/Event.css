@@ -33,6 +33,9 @@ form {
 .container-event {
   width: 50%;
   /* border-radius: 50%; */
+  margin: 2%;
+  width: 400px;
+  box-shadow: 1px 1px 12px #555;
 }
 
 .titre-label {
@@ -44,12 +47,6 @@ form {
 .container-card-event {
   display: flex;
   justify-content: center;
-}
-
-.card {
-  margin: 2%;
-  width: 400px;
-  box-shadow: 1px 1px 12px #555;
 }
 
 .label {
