@@ -34,7 +34,7 @@ function Login() {
       })
       .then((response) => {
         if (response.data.message) {
-          setIsLog(true);
+          setIsLog(false);
         } else {
           setIsLog(true);
         }
@@ -46,7 +46,7 @@ function Login() {
     <div className='signUpForm'>
       <form onSubmit={handleSubmit}>
         <label className='field' htmlFor='firstname'>
-          <input
+          {/* <input
             id='firstname'
             type='firstname'
             name='firstname'
@@ -63,7 +63,7 @@ function Login() {
             onChange={handleLastname}
             placeholder='Lastname :'
             required
-          />
+          /> */}
         </label>
         <label className='field' htmlFor='pseudo'>
           <input
