@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import FormInput from './FormInput';
 import './event.css';
+
 function Event() {
   const [users, setUsers] = useState([]);
-  const [time, setTime] = useState();
   const [formContent, setFormContent] = useState({
     user_id: '',
     description: '',
@@ -13,22 +13,21 @@ function Event() {
     date: '',
     time: '',
   });
-  console.log(time);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    axios
+      .post(`${process.env.REACT_APP_BACKEND_URL}/event`, formContent)
+      .then((response) => {
+        console.log(response);
+      });
+  };
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/user`).then((response) => {
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/user`).then((response) => {
       setUsers(response.data);
     });
   }, []);
-
-  console.log(users);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    axios.post(`http://localhost:8000/event`, formContent).then((response) => {
-      console.log(response);
-    });
-  };
 
   return (
     <div>
