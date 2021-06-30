@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
-.loginForm {
+.signUpForm {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
 }
 
 .field {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  padding: 5px;
-  width: 80%;
   align-items: center;
-  font-family: 'Montserrat';
+  margin: 2%;
 }
 
 .login-btn {
@@ -32,13 +28,14 @@
   color: #1ebe73;
 }
 
-.card-body-login {
+.card-body-signup {
+  display: flex;
   width: 100%;
   border: solid 1 px;
   box-shadow: 0 10px 10px rgb(134, 134, 134);
 }
 
-.card-login {
+.card-signup {
   margin: 5%;
   width: 30%;
   z-index: 3;
