@@ -31,7 +31,7 @@ function App() {
               <Link to='/profil'>Profil</Link>
             </li>
             <li>
-              <Link to='/map'>Map</Link>
+              <Link to='/events'>Events</Link>
             </li> 
           </ul>
           <Button style={{ marginTop: '-13px', marginRight: '30px', backgroundColor: '#1ebe73', border: 'none' }}>Log out</Button>
