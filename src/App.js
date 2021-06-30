@@ -49,6 +49,23 @@ function App() {
                 Log out
               </Button>
             </nav>
+        <nav className='navigation-bar'>
+          <ul>
+            <li>
+              <img className='logo-fiverr' src={fiverrlogo} alt='Fiverr Icon' />
+            </li>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/profil'>Profil</Link>
+            </li>
+            <li>
+              <Link to='/events'>Events</Link>
+            </li> 
+          </ul>
+          <Button style={{ marginTop: '-13px', marginRight: '30px', backgroundColor: '#1ebe73', border: 'none' }}>Log out</Button>
+        </nav>
             <Switch>
               <Route exact path='/'>
                 <CardDetailsContext.Provider

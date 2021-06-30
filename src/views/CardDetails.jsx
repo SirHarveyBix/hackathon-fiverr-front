@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import CardDetailsContext from '../contexts/CardDetailsContext';
 import { Card, Button } from 'react-bootstrap';
+import Event from './Event';
 import marker from '../img/marker.png';
 import stars from '../img/stars.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -44,6 +45,10 @@ function CardDetails() {
             </p>
           </div>
         </Card>
+        <div className="title">
+          <h1>Book your meeting !</h1>
+        </div>
+        <Event />
       </div>
     </div>
   );
