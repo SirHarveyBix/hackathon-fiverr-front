@@ -28,47 +28,47 @@ function SignUp() {
         <Card.Body className="card-body-signup">
           <form onSubmit={handleSubmit}>
             <label className='field' htmlFor='nom'>
-              <FormInput
+              <input
                 label='nom'
                 name='lastname'
                 type='text'
-                value={formContent}
+                placeholder='Lastname...'
                 setValue={setFormContent}
               />
             </label>
             <label className='field' htmlFor='prenom'>
-              <FormInput
+              <input
                 label='prenom'
                 name='firstname'
                 type='text'
-                value={formContent}
+                placeholder='firstname...'
                 setValue={setFormContent}
               />
             </label>
-            <label className='field' htmlFor='nom'>
-              <FormInput
+            <label className='field' htmlFor='pseudo'>
+              <input
                 label='pseudo'
                 name='pseudo'
                 type='text'
-                value={formContent}
+                placeholder='Pseudo...'
                 setValue={setFormContent}
               />
             </label>
-            <label className='field' htmlFor='nom'>
-              <FormInput
+            <label className='field' htmlFor='email'>
+              <input
                 label='email'
                 name='email'
                 type='email'
-                value={formContent}
+                placeholder='Email...'
                 setValue={setFormContent}
               />
             </label>
-            <label className='field' htmlFor='nom'>
-              <FormInput
+            <label className='field' htmlFor='password'>
+              <input
                 label='mot de passe'
                 name='password'
                 type='password'
-                value={formContent}
+                placeholder='Password...'
                 setValue={setFormContent}
               />
             </label>

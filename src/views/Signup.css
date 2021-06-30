@@ -33,6 +33,7 @@
   width: 100%;
   border: solid 1 px;
   box-shadow: 0 10px 10px rgb(134, 134, 134);
+  justify-content: center;
 }
 
 .card-signup {
@@ -40,4 +41,5 @@
   width: 30%;
   z-index: 3;
   position: absolute;
+  margin-top: 210px;
 }

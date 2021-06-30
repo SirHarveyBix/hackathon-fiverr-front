@@ -46,7 +46,7 @@ function Login() {
                 type='pseudo'
                 name='pseudo'
                 onChange={handlePseudo}
-                placeholder='Pseudo :'
+                placeholder='Pseudo...'
                 required
               />
             </label>
@@ -56,11 +56,11 @@ function Login() {
                 type='password'
                 name='password'
                 onChange={handlePassword}
-                placeholder='Mot de passe : '
+                placeholder='Password...'
                 required
               />
             </label>
-            <button className='login-btn' type='submit'>
+            <button className='login-btn' type='submit' onClick={() => setIsLog(true)}>
               Login
             </button>
           </form>
