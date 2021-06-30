@@ -2,7 +2,6 @@
 /* eslint-disable no-console */
 import axios from 'axios';
 import React, { useState } from 'react';
-import FormInput from './FormInput';
 import { Card } from 'react-bootstrap';
 import './Signup.css';
 
@@ -24,8 +23,8 @@ function SignUp() {
 
   return (
     <div className='signUpForm'>
-      <Card className="card-signup">
-        <Card.Body className="card-body-signup">
+      <Card className='card-signup'>
+        <Card.Body className='card-body-signup'>
           <form onSubmit={handleSubmit}>
             <label className='field' htmlFor='nom'>
               <input
