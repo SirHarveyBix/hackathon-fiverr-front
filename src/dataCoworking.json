@@ -99,7 +99,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 10
+    "id": 10,
+    "latitude": 42.69570847117291,
+    "longitude": 9.44921912690451
   },
   {
     "NOM": "BeCoworking",
@@ -349,17 +351,6 @@
     "longitude": -0.592432
   },
   {
-    "NOM": "Coworking Epinal",
-    "ADRESSE": "5 Allée six",
-    "CP": "88150",
-    "VILLE": "Thaon-les-Vosges",
-    "WEB": "www.coworking-epinal.com",
-    "IMG": {
-      "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
-    },
-    "id": 30
-  },
-  {
     "NOM": "Coworking Kaizen",
     "ADRESSE": "9 Rue Andrè Darbon",
     "CP": "33300",
@@ -485,7 +476,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 41
+    "id": 41,
+    "latitude": 47.2104704751657,
+    "longitude": -1.5491236154132626
   },
   {
     "NOM": "Eb-Lab",
@@ -496,7 +489,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 42
+    "id": 42,
+    "latitude": 47.32774353646957,
+    "longitude": 5.048892327025083
   },
   {
     "NOM": "Epicentre Cowork",
@@ -520,7 +515,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 44
+    "id": 44,
+    "latitude": 48.87699577023721,
+    "longitude": 2.3442180270679516
   },
   {
     "NOM": "Esperluette",
@@ -557,7 +554,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 48
+    "id": 48,
+    "latitude": 48.89148376094705,
+    "longitude": 2.248313598232733
   },
   {
     "NOM": "Forum Digital",
@@ -581,7 +580,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 50
+    "id": 50,
+    "latitude": 48.98001301097727,
+    "longitude": 2.461708900084492
   },
   {
     "NOM": "Group'Union",
@@ -593,8 +594,8 @@
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
     "id": 51,
-    "latitude": 43.2918516,
-    "longitude": 5.3775333
+    "latitude": 43.292107999456654,
+    "longitude": 5.377716399933005
   },
   {
     "NOM": "Hubsy Café",
@@ -605,7 +606,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 53
+    "id": 53,
+    "latitude": 48.86589280625469,
+    "longitude": 2.354209955903232
   },
   {
     "NOM": "IBB",
@@ -629,7 +632,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 55
+    "id": 55,
+    "latitude": 47.24985488295012,
+    "longitude": 6.023048800036606
   },
   {
     "NOM": "Intencity",
@@ -640,7 +645,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 56
+    "id": 56,
+    "latitude": 48.847885423685554,
+    "longitude": 2.386685798231513
   },
   {
     "NOM": "Intencity",
@@ -675,7 +682,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 59
+    "id": 59,
+    "latitude": 43.4580196388098,
+    "longitude": 5.6843453845947725
   },
   {
     "NOM": "Kiosk Office",
@@ -686,7 +695,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 60
+    "id": 60,
+    "latitude": 48.5562726031227,
+    "longitude": 7.766778698223314
   },
   {
     "NOM": "Kitchen Cannes",
@@ -710,18 +721,22 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 62
+    "id": 62,
+    "latitude": 48.839555145999505,
+    "longitude": 2.2448083559025194
   },
   {
     "NOM": "La Boussol",
-    "ADRESSE": "7 Rue de Vend�e",
+    "ADRESSE": "7 Rue de Vendée",
     "CP": "29200",
     "VILLE": "Brest",
     "WEB": "www.laboussol.fr",
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 63
+    "id": 63,
+    "latitude": 48.40430072081017,
+    "longitude": -4.512659659452066
   },
   {
     "NOM": "La Cagouille",
@@ -732,18 +747,22 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 64
+    "id": 64,
+    "latitude": 46.11551253730728,
+    "longitude": -0.9350716306788186
   },
   {
     "NOM": "La Cambuzz",
-    "ADRESSE": "Rue Th�odore Monod",
+    "ADRESSE": "Rue Théodore Monod",
     "CP": "35400",
     "VILLE": "Saint-Malo",
     "WEB": "www.digital-saint-malo.com",
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 65
+    "id": 65,
+    "latitude": 48.64685538119771,
+    "longitude": -2.0068180864316827
   },
   {
     "NOM": "La Cantine",
@@ -754,7 +773,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 66
+    "id": 66,
+    "latitude": 48.39210776178456,
+    "longitude": -4.488204430616831
   },
   {
     "NOM": "La Cantine",
@@ -765,10 +786,12 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 67
+    "id": 67,
+    "latitude": 43.12038224629798,
+    "longitude": 5.937748725065825
   },
   {
-    "NOM": "La Cantine Num�rique",
+    "NOM": "La Cantine Numérique",
     "ADRESSE": "11 Impasse Juton",
     "CP": "44000",
     "VILLE": "Nantes",
@@ -776,7 +799,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 68
+    "id": 68,
+    "latitude": 47.207296671285995,
+    "longitude": -1.5587189424218204
   },
   {
     "NOM": "La Capsule",
@@ -787,7 +812,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 69
+    "id": 69,
+    "latitude": 49.25603822692733,
+    "longitude": 4.036951869407413
   },
   {
     "NOM": "La Chapelle Coworking",
@@ -798,7 +825,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 70
+    "id": 70,
+    "latitude": 47.228660721365074,
+    "longitude": -1.5612261729776316
   },
   {
     "NOM": "La Coloc",
@@ -809,18 +838,22 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 71
+    "id": 71,
+    "latitude": 49.88996221955405,
+    "longitude": 2.3033508847678474
   },
   {
     "NOM": "La Compagnie",
     "ADRESSE": "15 Avenue Henri Becquerel",
     "CP": "51000",
-    "VILLE": "Ch�lons-en-Champagne",
+    "VILLE": "Châlons-en-Champagne",
     "WEB": "www.chalonscoworking.fr",
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 72
+    "id": 72,
+    "latitude": 48.96632539427678,
+    "longitude": 4.347846641112269
   },
   {
     "NOM": "La Cordée",
@@ -857,7 +890,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 75
+    "id": 75,
+    "latitude": 50.62940821001957,
+    "longitude": 3.06962368478912
   },
   {
     "NOM": "La Fabrique",
@@ -881,7 +916,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 77
+    "id": 77,
+    "latitude": 48.915288498184076,
+    "longitude": 2.246554128918244
   },
   {
     "NOM": "La Factory",
@@ -892,7 +929,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 78
+    "id": 78,
+    "latitude": 48.862659974902705,
+    "longitude": 2.386415198231924
   },
   {
     "NOM": "La Forge",
@@ -965,7 +1004,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 84
+    "id": 84,
+    "latitude": 49.890157445984514,
+    "longitude": 2.3014864270966475
   },
   {
     "NOM": "La Maison Bleue",
@@ -976,29 +1017,35 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 85
+    "id": 85,
+    "latitude": 49.4450190168234,
+    "longitude": 1.0866681000976015
   },
   {
     "NOM": "La Maison du Coworking",
-    "ADRESSE": "9 All�e de la Laiterie",
+    "ADRESSE": "9 Allée de la Laiterie",
     "CP": "59493",
     "VILLE": "Villeneuve-d'Ascq",
     "WEB": "www.lamaisonducoworking.fr",
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 86
+    "id": 86,
+    "latitude": 50.60848113611927,
+    "longitude": 3.1665849982817114
   },
   {
     "NOM": "La Manufacture",
     "ADRESSE": "21 Avenue Gabriel Chaigne",
     "CP": "33190",
-    "VILLE": "La R�ole",
+    "VILLE": "La Réole",
     "WEB": "www.manufacturelareole.fr",
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 87
+    "id": 87,
+    "latitude": 44.58110695490368,
+    "longitude": -0.03166494421225341
   },
   {
     "NOM": "La Passerelle",
@@ -1009,7 +1056,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 88
+    "id": 88,
+    "latitude": 43.94962591237817,
+    "longitude": 4.820055753922349
   },
   {
     "NOM": "La Plage",
@@ -1020,7 +1069,9 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 89
+    "id": 89,
+    "latitude": 48.5728985587778,
+    "longitude": 7.792916098223854
   },
   {
     "NOM": "La Ruche",
@@ -1044,7 +1095,9 @@
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 91
+    "id": 91,
+    "latitude": 43.30300984248524,
+    "longitude": 5.386667798084032
   },
   {
     "NOM": "La Ruche Numérique",
@@ -1055,7 +1108,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 92
+    "id": 92,
+    "latitude": 47.995186692977434,
+    "longitude": 0.18835764238580172
   },
   {
     "NOM": "La Serre",
@@ -1066,7 +1121,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 93
+    "id": 93,
+    "latitude": 43.59436850591898,
+    "longitude": 1.4215250134337807
   },
   {
     "NOM": "La Tribu Coworking",
@@ -1077,7 +1134,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 94
+    "id": 94,
+    "latitude": 48.003220050302204,
+    "longitude": 0.1958271405368013
   },
   {
     "NOM": "L'Annexe",
@@ -1101,7 +1160,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 97
+    "id": 97,
+    "latitude": 43.12197335394063,
+    "longitude": 5.930558740408279
   },
   {
     "NOM": "L'Asile",
@@ -1118,25 +1179,29 @@
   },
   {
     "NOM": "L'Atelier",
-    "ADRESSE": "3 Place du March�",
+    "ADRESSE": "3 Place du Marché",
     "CP": "26150",
     "VILLE": "Die",
     "WEB": "www.latelier.in",
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 99
+    "id": 99,
+    "latitude": 44.753292517017506,
+    "longitude": 5.37030942695659
   },
   {
     "NOM": "L'Atelier du 9",
-    "ADRESSE": "9 Rue du Moulin l'Abb�",
+    "ADRESSE": "9 Rue du Moulin l'Abbé",
     "CP": "62280",
     "VILLE": "Saint-Martin-Boulogne",
     "WEB": "www.latelierdu9.fr",
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 100
+    "id": 100,
+    "latitude": 50.729062604258985,
+    "longitude": 1.6804764694495833
   },
   {
     "NOM": "Lawomatic",
@@ -1147,7 +1212,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 101
+    "id": 101,
+    "latitude": 48.874380461276075,
+    "longitude": 2.3716792135746902
   },
   {
     "NOM": "Lawomatic",
@@ -1158,18 +1225,22 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 102
+    "id": 102,
+    "latitude": 48.87428515295139,
+    "longitude": 2.372875440561064
   },
   {
     "NOM": "Le 10h10",
-    "ADRESSE": "19 Rue de Cl�ry",
+    "ADRESSE": "19 Rue de Cléry",
     "CP": "75002",
     "VILLE": "Paris",
     "WEB": "www.le10h10.com",
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 103
+    "id": 103,
+    "latitude": 48.86820278400409,
+    "longitude": 2.3460417270677083
   },
   {
     "NOM": "Le 17 bis",
@@ -1180,40 +1251,48 @@
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 104
+    "id": 104,
+    "latitude": 48.84430866881391,
+    "longitude": 2.3120028233685903
   },
   {
     "NOM": "Le 50",
-    "ADRESSE": "50 Avenue L�on Cr�te",
+    "ADRESSE": "50 Avenue Léon Crète",
     "CP": "78490",
-    "VILLE": "M�r�",
+    "VILLE": "Méré",
     "WEB": "www.le-50.fr",
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 105
+    "id": 105,
+    "latitude": 48.79287387497591,
+    "longitude": 1.8140718540519598
   },
   {
     "NOM": "Le Capitole",
-    "ADRESSE": "17 Avenue Albert Rouvi�re",
+    "ADRESSE": "17 Avenue Albert Rouvière",
     "CP": "81200",
     "VILLE": "Mazamet",
     "WEB": "www.lecapitole-entreprises.fr",
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 106
+    "id": 106,
+    "latitude": 43.49530519074575,
+    "longitude": 2.3746627269244702
   },
   {
     "NOM": "Le Cl'hub",
-    "ADRESSE": "23 Boulevard du G�n�ral Leclerc",
+    "ADRESSE": "23 Boulevard du Général Leclerc",
     "CP": "59100",
     "VILLE": "Roubaix",
     "WEB": "www.leclhub.fr",
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 107
+    "id": 107,
+    "latitude": 50.68860573018969,
+    "longitude": 3.175840227119663
   },
   {
     "NOM": "Le Container",
@@ -1224,7 +1303,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 108
+    "id": 108,
+    "latitude": 49.49032677886012,
+    "longitude": 0.12657325592087285
   },
   {
     "NOM": "Le Gymnase",
@@ -1235,7 +1316,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 109
+    "id": 109,
+    "latitude": 48.85133785109138,
+    "longitude": 2.3797346982316103
   },
   {
     "NOM": "Le Laptop",
@@ -1246,7 +1329,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 110
+    "id": 110,
+    "latitude": 48.877509836774635,
+    "longitude": 2.3907916693967595
   },
   {
     "NOM": "Le Numéro Cinq",
@@ -1270,7 +1355,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 114
+    "id": 114,
+    "latitude": 44.86718465926287,
+    "longitude": -0.5966191711912
   },
   {
     "NOM": "Le Petit Musc",
@@ -1281,7 +1368,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 115
+    "id": 115,
+    "latitude": 48.853032128930444,
+    "longitude": 2.3646798270672877
   },
   {
     "NOM": "Le Phare",
@@ -1292,18 +1381,22 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 116
+    "id": 116,
+    "latitude": 45.82855861825077,
+    "longitude": 1.2566468423271966
   },
   {
-    "NOM": "Le Pr�au",
+    "NOM": "Le Préau",
     "ADRESSE": "Le Village",
     "CP": "07200",
-    "VILLE": "Saint-�tienne-de-Boulogne",
+    "VILLE": "Saint-étienne-de-Boulogne",
     "WEB": "www.lepreau.org",
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 117
+    "id": 117,
+    "latitude": 44.70168094187178,
+    "longitude": 4.458736120636562
   },
   {
     "NOM": "Le P'tit Bureau",
@@ -1314,7 +1407,9 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 118
+    "id": 118,
+    "latitude": 45.67589672183581,
+    "longitude": 6.391777071158767
   },
   {
     "NOM": "Le QG",
@@ -1325,10 +1420,12 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 119
+    "id": 119,
+    "latitude": 45.485933788211156,
+    "longitude": 6.5337511693045585
   },
   {
-    "NOM": "Le Troquet Num�rique",
+    "NOM": "Le Troquet Numérique",
     "ADRESSE": "Place Charlie Chaplin",
     "CP": "38300",
     "VILLE": "Bourgoin-Jallieu",
@@ -1336,7 +1433,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 120
+    "id": 120,
+    "latitude": 45.58902726431451,
+    "longitude": 5.277539313485307
   },
   {
     "NOM": "Le Vaisseau",
@@ -1347,18 +1446,22 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 121
+    "id": 121,
+    "latitude": 46.14105592089381,
+    "longitude": -1.157972128828899
   },
   {
-    "NOM": "Les 6 degr�s",
-    "ADRESSE": "8 Rue Andr� Chaude",
+    "NOM": "Les 6 degrés",
+    "ADRESSE": "8 Rue André Chaude",
     "CP": "06400",
     "VILLE": "Cannes",
     "WEB": "www.les6degres.com",
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 122
+    "id": 122,
+    "latitude": 43.555794859118045,
+    "longitude": 7.017786711583577
   },
   {
     "NOM": "L'Estrade",
@@ -1369,29 +1472,35 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 125
+    "id": 125,
+    "latitude": 45.83543652947761,
+    "longitude": 1.2571090558205587
   },
   {
     "NOM": "L'Usine",
-    "ADRESSE": "6 Rue de l'�tang",
+    "ADRESSE": "6 Rue de l'étang",
     "CP": "90000",
     "VILLE": "Belfort",
     "WEB": "www.lusineabelfort.fr",
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 126
+    "id": 126,
+    "latitude": 47.64389356226997,
+    "longitude": 6.844117640526895
   },
   {
     "NOM": "Melchior",
-    "ADRESSE": "275 Rue de l'�glise",
+    "ADRESSE": "275 Rue de l'église",
     "CP": "69390",
     "VILLE": "Charly",
     "WEB": "www.clubmelchior.fr",
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 127
+    "id": 127,
+    "latitude": 45.64701678673495,
+    "longitude": 4.796025453966358
   },
   {
     "NOM": "Mix Coworking",
@@ -1402,7 +1511,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 128
+    "id": 128,
+    "latitude": 45.764660831438675,
+    "longitude": 4.780725942325495
   },
   {
     "NOM": "Mutinerie 14",
@@ -1413,7 +1524,9 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 129
+    "id": 129,
+    "latitude": 48.82734176812501,
+    "longitude": 2.3163247135733838
   },
   {
     "NOM": "MyCowork",
@@ -1424,7 +1537,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 130
+    "id": 130,
+    "latitude": 48.86569486051397,
+    "longitude": 2.348001940560827
   },
   {
     "NOM": "NetCoworking",
@@ -1435,7 +1550,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F03.2F05.2F4ac193e3-a981-400b-a6f4-9d8bc9de39f2.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgR2V0dHkgSW1hZ2VzIC8gQ0FQSVRBTA%3D%3D/teletravail-coworking-lentreprise-se-dematerialise-1275457.jpg"
     },
-    "id": 131
+    "id": 131,
+    "latitude": 48.86475379929253,
+    "longitude": 2.2892284540539656
   },
   {
     "NOM": "Now Coworking",
@@ -1446,10 +1563,12 @@
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 132
+    "id": 132,
+    "latitude": 49.44415487073874,
+    "longitude": 1.084870754070315
   },
   {
-    "NOM": "Nuage Caf�",
+    "NOM": "Nuage Café",
     "ADRESSE": "14 Rue des Carmes",
     "CP": "75005",
     "VILLE": "Paris",
@@ -1457,7 +1576,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 133
+    "id": 133,
+    "latitude": 48.849418619578294,
+    "longitude": 2.3473745559027774
   },
   {
     "NOM": "Panorama Coworking",
@@ -1468,7 +1589,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 134
+    "id": 134,
+    "latitude": 48.58448662786326,
+    "longitude": 7.757380342402171
   },
   {
     "NOM": "Plaine Co Working",
@@ -1479,29 +1602,35 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 135
+    "id": 135,
+    "latitude": 48.909517258507655,
+    "longitude": 2.3674718982332585
   },
   {
     "NOM": "Point Sud",
     "ADRESSE": "33 Rue Alphonse Karr",
     "CP": "83700",
-    "VILLE": "Saint-Rapha�l",
+    "VILLE": "Saint-Raphaël",
     "WEB": "www.point-sud.fr",
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 136
+    "id": 136,
+    "latitude": 43.424020523518095,
+    "longitude": 6.767228128771914
   },
   {
     "NOM": "Polidesk",
-    "ADRESSE": "Parc d'Activit� de Doaren Molac",
+    "ADRESSE": "Parc d'Activité de Doaren Molac",
     "CP": "56610",
     "VILLE": "Arradon",
     "WEB": "www.polidesk.com",
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 137
+    "id": 137,
+    "latitude": 47.64321963175268,
+    "longitude": -2.8059277386096264
   },
   {
     "NOM": "Remix Coworking",
@@ -1512,18 +1641,22 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 138
+    "id": 138,
+    "latitude": 48.87252820089455,
+    "longitude": 2.3515721135746444
   },
   {
     "NOM": "Rooftop-Work",
-    "ADRESSE": "47 Avenue de la Grande Arm�e",
+    "ADRESSE": "47 Avenue de la Grande Armée",
     "CP": "75116",
     "VILLE": "Paris",
     "WEB": "www.rooftop-work.paris",
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 139
+    "id": 139,
+    "latitude": 48.87555104395838,
+    "longitude": 2.2886893982322984
   },
   {
     "NOM": "Rueil 92 Coworking",
@@ -1534,7 +1667,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 140
+    "id": 140,
+    "latitude": 48.88388429272047,
+    "longitude": 2.1916857424105483
   },
   {
     "NOM": "Safi CoWorking",
@@ -1545,18 +1680,22 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 141
+    "id": 141,
+    "latitude": 43.45593290075007,
+    "longitude": 5.862495555759107
   },
   {
     "NOM": "Sceaux Smart",
-    "ADRESSE": "10 Rue Gaston L�vy",
+    "ADRESSE": "10 Rue Gaston Lévy",
     "CP": "92330",
     "VILLE": "Sceaux",
     "WEB": "www.sceauxsmart.fr",
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 142
+    "id": 142,
+    "latitude": 48.77806030039724,
+    "longitude": 2.2869267289143975
   },
   {
     "NOM": "Sonuts",
@@ -1567,7 +1706,9 @@
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 144
+    "id": 144,
+    "latitude": 43.52925743100758,
+    "longitude": 5.40914547110334
   },
   {
     "NOM": "Split Coworking",
@@ -1578,7 +1719,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 145
+    "id": 145,
+    "latitude": 48.885414587971376,
+    "longitude": 2.356521554054571
   },
   {
     "NOM": "StartUp Palace",
@@ -1589,7 +1732,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 147
+    "id": 147,
+    "latitude": 47.21461619436212,
+    "longitude": -1.5625985883204305
   },
   {
     "NOM": "Start-Way",
@@ -1600,7 +1745,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 148
+    "id": 148,
+    "latitude": 48.803889109306155,
+    "longitude": 2.3254513000795343
   },
   {
     "NOM": "Start-Way",
@@ -1611,7 +1758,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 149
+    "id": 149,
+    "latitude": 48.80507163833838,
+    "longitude": 2.3358811117235008
   },
   {
     "NOM": "Start-Way",
@@ -1622,7 +1771,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 150
+    "id": 150,
+    "latitude": 48.86062079735392,
+    "longitude": 2.3676700847387173
   },
   {
     "NOM": "Start-Way",
@@ -1633,7 +1784,9 @@
     "IMG": {
       "URL": "https://www.deskmag.com/images/articleimages/original/deskmag-coworking-6191.png"
     },
-    "id": 152
+    "id": 152,
+    "latitude": 48.858535518940805,
+    "longitude": 2.4240156865878544
   },
   {
     "NOM": "The Fashion Loft",
@@ -1644,7 +1797,9 @@
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 153
+    "id": 153,
+    "latitude": 48.87245080109113,
+    "longitude": 2.349154898232206
   },
   {
     "NOM": "Un jour ici",
@@ -1655,7 +1810,9 @@
     "IMG": {
       "URL": "https://www.eu-startups.com/wp-content/uploads/2018/07/Coworking-Porto.png"
     },
-    "id": 154
+    "id": 154,
+    "latitude": 43.61612397020365,
+    "longitude": 7.0503628809002885
   },
   {
     "NOM": "Village factory",
@@ -1682,17 +1839,6 @@
     "id": 156,
     "latitude": 43.1836552,
     "longitude": 3.008297
-  },
-  {
-    "NOM": "Wer�so",
-    "ADRESSE": "104 Rue nationale",
-    "CP": "59800",
-    "VILLE": "Lille",
-    "WEB": "www.wereso.com",
-    "IMG": {
-      "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
-    },
-    "id": 159
   },
   {
     "NOM": "Work and Co",
@@ -1729,7 +1875,9 @@
     "IMG": {
       "URL": "https://paris-jetequitte.com/wp-content/uploads/2018/09/espace-coworking-3.jpg"
     },
-    "id": 162
+    "id": 162,
+    "latitude": 48.836435630646655,
+    "longitude": 2.294212427066827
   },
   {
     "NOM": "Work in Pau",
@@ -1740,7 +1888,9 @@
     "IMG": {
       "URL": "https://www.coworkingnantes.com/wp-content/uploads/2018/02/vue-RDC-960x560.jpg"
     },
-    "id": 163
+    "id": 163,
+    "latitude": 43.32035031239902,
+    "longitude": -0.3675486884223441
   },
   {
     "NOM": "Zam Coworking",
@@ -1751,7 +1901,9 @@
     "IMG": {
       "URL": "https://uploads.lebonbon.fr/source/2019/january/t59rj4f5gu_2_675.jpg"
     },
-    "id": 165
+    "id": 165,
+    "latitude": 49.05109671002317,
+    "longitude": 4.004304971250864
   },
   {
     "NOM": "ZeBocal",
@@ -1762,7 +1914,9 @@
     "IMG": {
       "URL": "https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F26.2F6bd56f1d-e7a1-495b-94fa-c89b76875705.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgS3dlcmsgLyBDQVBJVEFM/5-pistes-pour-bien-choisir-votre-espace-de-coworking-1358535.jpg"
     },
-    "id": 166
+    "id": 166,
+    "latitude": 46.582487330232304,
+    "longitude": 0.3403796423472977
   },
   {
     "NOM": "We Forge",
@@ -1783,12 +1937,12 @@
     "CP": "33300",
     "VILLE": "Bordeaux",
     "WEB": "www.weecolab.com",
-    "latitude": 44.8541841,
-    "longitude": -0.5702014,
     "IMG": {
       "URL": "https://spaces-wp.imgix.net/2019/04/Spaces-hennessy-road-hong-kong-hong-kong-flexible-work-space.jpg?auto=compress,format&q=30&ar=2.46:1&&fit=crop&h=584"
     },
-    "id": 168
+    "id": 168,
+    "latitude": 44.8541841,
+    "longitude": -0.5702014
   },
   {
     "NOM": "Weréso",
