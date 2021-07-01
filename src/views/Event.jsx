@@ -2,17 +2,16 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import FormInput from './FormInput';
-import './event.css';
+import './Event.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import dataCoworking from '../dataCoworking.json';
 
-function Event() {
+function Event({ locId }) {
   const [users, setUsers] = useState([]);
-  const [location, setLocation] = useState({});
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [location, setLocation] = useState(null);
   const [formContent, setFormContent] = useState({
     user_id: 0,
     description: '',
@@ -21,19 +20,21 @@ function Event() {
     time: '',
   });
 
-  const idFront = 16;
-  const getData = async () => {
-    const response = await fetch(dataCoworking);
-    setIsLoaded(response.ok);
-  };
+  // const cardId = cardDetails.id;
+  // console.log(cardDetails);
+  // const getData = async () => {
+  //   const response = await fetch(dataCoworking);
+  //   console.log('tacos ' + JSON.stringify(response));
+  //   setIsLoaded(response.ok);
+  // };
+  // console.log(isLoaded);
 
   useEffect(() => {
     axios.get(`${process.env.REACT_APP_BACKEND_URL}/user`).then((response) => {
       setUsers(response.data);
     });
-    getData();
-    setLocation(dataCoworking.find((data) => data.id === idFront));
-  }, []);
+    setLocation(dataCoworking.find((data) => data.id === locId));
+  }, [locId]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,7 +43,6 @@ function Event() {
       .post(`${process.env.REACT_APP_BACKEND_URL}/event`, formContent)
       .then((response) => {
         console.log(response);
-        console.log(formContent);
       });
   };
   const handleChangeDescritpion = (event) => {
@@ -55,7 +55,6 @@ function Event() {
       user_id: event.target.value,
     });
   };
-  console.log(formContent);
 
   return (
     <div className='container-card-event'>
@@ -109,7 +108,7 @@ function Event() {
           </div>
         </form>
       </Card>
-      {isLoaded ? (
+      {location ? (
         <Card className='container-event'>
           <form>
             <div className='map-box'>

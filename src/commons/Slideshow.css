@@ -1,0 +1,13 @@
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-content : center;
+  margin: 0;
+  z-index: -1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}

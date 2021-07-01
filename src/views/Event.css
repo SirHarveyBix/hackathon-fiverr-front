@@ -1,14 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27);
 
-.leaflet-container {
-  width: 398px;
-  height: 514px;
-  border-radius: 5px;
+.mapBox {
+  height: 180px;
 }
-/* .leaflet-popup-content-wrapper {
-  position: fixed;
-} */
-
+.leaflet-container {
+  height: 500px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -28,11 +25,11 @@ form {
   align-items: center;
 }
 
-/* .map-box img {
+.map-box img {
   width: 398px;
   height: 514px;
   border-radius: 5px;
-} */
+}
 
 .container-event {
   width: 50%;
@@ -99,8 +96,10 @@ input {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, 
+  background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, 
+  box-shadow 0.15s ease-in-out;
   color: #28a745;
   border-color: #28a745;
 }

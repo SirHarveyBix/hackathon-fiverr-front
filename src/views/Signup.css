@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
+
+.login-btn {
+  background-color: #1ebe73;
+  color: white;
+  border-color: transparent;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-btn:hover {
+  background-color: white;
+  color: #1ebe73;
+}
+
+.card-body-signup {
+  display: flex;
+  width: 100%;
+  border: solid 1 px;
+  box-shadow: 0 10px 10px rgb(134, 134, 134);
+  justify-content: center;
+}
+
+.card-signup {
+  margin: 5%;
+  width: 30%;
+  z-index: 3;
+  position: absolute;
+  margin-top: 210px;
+}
